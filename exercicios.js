@@ -23,7 +23,7 @@ console.log(`o resuldado é :${multiplicar(20, 3)}`);
 function dividir(a, b) {
 
     if (b % 2 == 0) {
-      console.log(a/b) 
+        console.log(a / b)
 
     }
     else {
@@ -35,8 +35,23 @@ function dividir(a, b) {
 
 
 //5.
-function potencia (a, b){
-    return 
+function potencia(a, b) {
+    return a ** b
 
 }
 console.log(`o resuldado é :${potencia(2, 7)}`);
+
+
+//6.
+
+const numero = 25;
+const raizQuadrada = Math.sqrt(numero);
+console.log(`A raiz quadrada de ${numero} é ${raizQuadrada}.`);
+
+//7.
+
+function areaCirculo(raio){
+   return 3,16 * raio^2.
+}
+console.log(`A àrea do circulo é ${areaCirculo(4)}.`)
+
