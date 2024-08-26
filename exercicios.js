@@ -55,3 +55,19 @@ function areaCirculo(raio){
 }
 console.log(`A àrea do circulo é ${areaCirculo(4)}.`)
 
+
+//8.
+
+function perimetroCirculo(raio) {
+    return 2 * 3,16 * raio
+}
+console.log(`O perímetro do circulo é ${perimetroCirculo(4)}.`)
+
+//9.X
+
+Math.hypot(3,4)
+
+console.log(hypot(3, 4))
+
+//10.
+
