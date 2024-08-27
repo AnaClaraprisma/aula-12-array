@@ -64,10 +64,14 @@ function perimetroCirculo(raio) {
 console.log(`O perímetro do circulo é ${perimetroCirculo(4)}.`)
 
 //9.X
-
+/*
 Math.hypot(3,4)
 
-console.log(hypot(3, 4))
+console.log(hypot())*/
 
 //10.
 
+console.log (`o numero maximo e o minimo respectivamente ${Math.max(6,1,8)} e ${Math.min(6,1,8)}`)
+
+
+//11.
